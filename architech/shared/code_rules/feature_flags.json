@@ -1,0 +1,59 @@
+{
+    "admin": {
+        "navbar": [
+            "Dashboard",
+            "Users",
+            "Settings",
+            "Home",
+            "Profile",
+            "Projects",
+            "Login"
+        ],
+        "sections": [
+            "Analytics",
+            "BetaFeatures",
+            "AdvancedSecurity",
+            "Projects",
+            "Profile",
+            "Welcome"
+        ],
+        "permissions": {
+            "canEditUsers": true,
+            "canViewLogs": true,
+            "canAccessAdvancedSecurity": true
+        }
+    },
+    "user": {
+        "navbar": [
+            "Home",
+            "Profile",
+            "Projects"
+        ],
+        "sections": [
+            "Projects",
+            "Profile"
+        ],
+        "permissions": {
+            "canEditUsers": false,
+            "canViewLogs": false,
+            "canAccessAdvancedSecurity": false
+        }
+    },
+    "guest": {
+        "navbar": [
+            "Home",
+            "Login"
+        ],
+        "sections": [
+            "Welcome"
+        ],
+        "permissions": {
+            "canEditUsers": false,
+            "canViewLogs": false,
+            "canAccessAdvancedSecurity": false
+        }
+    },
+    "string": {
+        "additionalProp1": "Sorry you are not a Trusted User"
+    }
+}
