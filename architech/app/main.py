@@ -2,7 +2,6 @@ from fastapi import FastAPI, Response
 from time import time
 import os
 import getpass
-from architech.app.vroute.pages import router as pages_router
 app = FastAPI()
 
 start_time = time()
@@ -67,4 +66,3 @@ def uptime():
     """Returns the uptime of the application in seconds."""
     return {"uptime_seconds": round(time() - start_time, 2)}
 
-app.include_router(pages_router)
